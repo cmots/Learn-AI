@@ -5,7 +5,7 @@
     <ProjectGuid>db0a22e6-782e-47b1-bdf4-357333542295</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>kNN.py</StartupFile>
+    <StartupFile>learn.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
