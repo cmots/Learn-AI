@@ -2,15 +2,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>db0a22e6-782e-47b1-bdf4-357333542295</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>learn.py</StartupFile>
+    <ProjectGuid>01045380-8104-4434-9246-cca2750a1901</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>trees.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>LearnPy</Name>
+    <Name>PythonApplication1</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="kNN.py" />
-    <Compile Include="learn.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="trees.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
